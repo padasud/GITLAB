@@ -3,7 +3,7 @@ void main()
 {
 
   int WinLotteryNo[10] = {0005, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
-  float WinAmount[10] = {20000000, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
+  float WinAmount[10] = {20000000, 1000000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
 
   int N = 10;
   int i, won; 
@@ -24,7 +24,7 @@ void main()
        }
     }
     if (!won) 
-      printf("Sorry Lottery Number %4d did not win\n", YourLotteryNo); 
+      printf("It's sad but true' %4d did not win\n", YourLotteryNo); 
     printf("Enter your Lottery Number (0 to end): "); 
     scanf("%d", &YourLotteryNo); 
   }
